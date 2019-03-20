@@ -58,7 +58,7 @@ let resumeData = {
         "CompanyName":"Sutra Technologies, Sri Lanka",
           "web": "http://www.sutratechnologies.com/",
         "specialization":"Software Engineer  ",
-        "YearRange":"Jan 2018 - Present",
+        "YearRange":"Jan 2019 - Present",
         "Achievements": "Experiences – C++, OpenCASCADE, Developing Algorithms for 3D Geometry Modelling, Curve resizing algorithm, B-spline and NURBS curve related theories & algorithms",
         "Description": "Sutra Technologies is a company that aspires to excel in turbo–machinery process simulation through use of scientific computing solutions to simulate real-world physics. Sri Lankan partner of Concepts NREC, based in USA has served the industry over 60 years."
       },
@@ -82,13 +82,13 @@ let resumeData = {
     "skillsDescription":"Your skills here",
     "skills":[
       {
-        "skillname":"C++"
+        "skillname":"cpp"
       },
       {
-        "skillname":"CSS"
+        "skillname":"java"
       },
       {
-        "skillname":"Reactjs"
+        "skillname":"python"
       }
     ],
     "portfolio":[
