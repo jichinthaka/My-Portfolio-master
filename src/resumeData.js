@@ -8,24 +8,26 @@ let resumeData = {
     "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
     "socialLinks":[
         {
-          "name":"linkedin",
+          "date":"linkedin",
           "url":"https://www.linkedin.com/in/imeshchinthaka/",
           "className":"fa fa-linkedin"
         },
         {
-          "name":"github",
+          "date":"github",
           "url":"https://github.com/jichinthaka",
           "className":"fa fa-github"
         },
         {
-          "name":"skype",
+          "date":"skype",
           "url":"https://twitter.com/imeshchinthaka",
           "className":"fa fa-twitter"
         }
       ],
     "aboutme":"I am a dedicated, innovative and self-motivated person with the ability to adapt any Software & Hardware tools or working environment searching for Software Engineer position and interesting to work with new technologies in different fields. Have experience from designing, implementing, leading several successful intriguing projects. Efficient work style is guaranteed for individual project works as well as group projects.",
     "address":"“Thilaka” , Samagi Mawatha, Duwa Temple Road, Kalutara South, Sri Lanka.",
-    "website":"https://notyet.com",
+    "website":"https://imeshchinthaka.herokuapp.com",
+    "phone":"+94713559080",
+    "email": "jayaweerage.imesh@gmail.com  ,  imesh.14@cse.mrt.ac.lk",
     "keyCompetencies": [
         {"competence": "Requirement Engineering"},
         {"competence": "Object-Oriented Designing"},
@@ -93,34 +95,34 @@ let resumeData = {
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "date":"My Life",
+        "description":"Happy for ever",
+        "imgurl":"images/portfolio/girl.jpg"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "date":"Projects",
+        "description":"Individual & group project works",
+        "imgurl":"images/portfolio/console.jpg"
       },
       {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        "date":"Learnings",
+        "description":"learn some thing every day",
+        "imgurl":"images/portfolio/learning.jpg"
       },
       {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "date":"Achievements",
+        "description":"Succeed life goals",
+        "imgurl":"images/portfolio/achievements.jpg"
       }
     ],
-    "testimonials":[
+    "news":[
       {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "description":"Started new job at Sutra Technologies as a software engineer",
+        "date":"1st of Jan, 2019"
       },
       {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "description":"Studied B-spline and NURBS curves with \"The NURBS Book\" and then implemented curve extending algorithms",
+        "date":"25st of Feb, 2019"
       }
     ]
   }

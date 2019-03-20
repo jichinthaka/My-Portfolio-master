@@ -22,7 +22,7 @@ export default class Header extends Component {
 
          <div className="row banner">
             <div className="banner-text">
-               <h1 className="responsive-headline">{resumeData.name}</h1>
+               <h1 className="responsive-headline">{resumeData.date}</h1>
                <h2 style={{color:'#fff', fontFamily:'sans-serif '}}>{resumeData.currentRole}
                </h2>
                 <h5 style={{color:'#fff', fontFamily:'sans-serif '}}>{resumeData.otherTitles}
@@ -32,7 +32,7 @@ export default class Header extends Component {
                   {
                     resumeData.socialLinks && resumeData.socialLinks.map(item =>{
                       return(
-                              <li key={item.name}>
+                              <li key={item.date}>
                                 <a href={item.url} target="_blank"><i className={item.className}></i></a>
                               </li>
                             )

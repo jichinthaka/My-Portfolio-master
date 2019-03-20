@@ -320,7 +320,7 @@ li p { }
 /*  Stats Tab Markup
 
     <ul class="stats-tabs">
-		<li><a href="#">[value]<b>[name]</b></a></li>
+		<li><a href="#">[value]<b>[date]</b></a></li>
 	 </ul>
 
     Extend this object into your markup.
