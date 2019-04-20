@@ -97,22 +97,26 @@ let resumeData = {
       {
         "date":"My Life",
         "description":"Happy for ever",
-        "imgurl":"images/portfolio/girl.jpg"
+        "imgurl":"images/portfolio/girl.jpg",
+          "router":"/mylife"
       },
       {
         "date":"Projects",
         "description":"Individual & group project works",
-        "imgurl":"images/portfolio/console.jpg"
+        "imgurl":"images/portfolio/console.jpg",
+          "router":"/projects"
       },
       {
         "date":"Learnings",
         "description":"learn some thing every day",
-        "imgurl":"images/portfolio/learning.jpg"
+        "imgurl":"images/portfolio/learning.jpg",
+          "router":"/learnings"
       },
       {
         "date":"Achievements",
         "description":"Succeed life goals",
-        "imgurl":"images/portfolio/achievements.jpg"
+        "imgurl":"images/portfolio/achievements.jpg",
+          "router":"/achiev"
       }
     ],
     "news":[

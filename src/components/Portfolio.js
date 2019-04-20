@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom'
+
 
 export default class Porfolio extends Component {
   render() {
@@ -12,9 +14,9 @@ export default class Porfolio extends Component {
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
-                <div className="columns portfolio-item">
+                  <Link to={`${item.router}`}>
+                  <div className="columns portfolio-item">
                   <div className="item-wrap">
-                    <a href="google.com">
                       <img src={`${item.imgurl}`} className="item-img"/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
@@ -22,9 +24,9 @@ export default class Porfolio extends Component {
                           <p>{item.description}</p>
                         </div>
                       </div>
-                    </a>
                   </div>
                 </div>
+                  </Link>
               )
             })
           }
